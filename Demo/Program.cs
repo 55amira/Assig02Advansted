@@ -47,12 +47,12 @@ namespace Demo
 
         public static void PrintList<T>(List<T> list)
         {
-            Console.WriteLine("null");
+            Console.WriteLine();
             foreach (T item in list)
             {
-                Console.Write($"<- {item} -> ");
+                Console.Write($"{item} ");
             }
-            Console.WriteLine("null");
+            Console.WriteLine();
         }
 
 
@@ -224,17 +224,17 @@ namespace Demo
                  //
                  //PrintStack(stack);
                  //
-                 Queue<int> queue = new Queue<int>();
-                   queue.Enqueue(1);
-                   queue.Enqueue(2);
-                   queue.Enqueue(3);   
-                   queue.Enqueue(4);   
-                   queue.Enqueue(5);
-
-                   PrintQueue(queue);
-                   queue.Peek();    
-                  queue.Dequeue();
-
+                /// Queue<int> queue = new Queue<int>();
+                ///   queue.Enqueue(1);
+                ///   queue.Enqueue(2);
+                ///   queue.Enqueue(3);   
+                ///   queue.Enqueue(4);   
+                ///   queue.Enqueue(5);
+                ///
+                ///   PrintQueue(queue);
+                ///   queue.Peek();    
+                ///  queue.Dequeue();
+                ///
                   
          }
     }
